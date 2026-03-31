@@ -70,6 +70,7 @@
             <ul>
                 <li><strong>Kontoinformasjon:</strong> E-postadresse, navn (hvis oppgitt via Apple/Google)</li>
                 <li><strong>Lydopptak:</strong> Taleopptak fra treningsøkter (brukes kun til analyse og slettes etter behandling)</li>
+                <li><strong>Kandidatprofil:</strong> Basert på dine treningssvar utleder AI-en erfaringer, ferdigheter og kommunikasjonsstyrker. Denne profilen er synlig for deg i appen og brukes til å gi mer relevante tilbakemeldinger i fremtidige treninger.</li>
                 <li><strong>Bruksdata:</strong> Treningshistorikk, poengsummer, favorittspørsmål</li>
                 <li><strong>Kjøpshistorikk:</strong> Intervjupakke-kjøp og kvotebruk</li>
                 <li><strong>Teknisk data:</strong> Enhetstype, OS-versjon, app-versjon (for feilsøking)</li>
@@ -91,10 +92,12 @@
             <h2>4. Deling med tredjeparter</h2>
             <p>Vi deler data med følgende tredjeparter for å levere tjenesten:</p>
             <ul>
-                <li><strong>Anthropic (Claude AI):</strong> Dine spørsmålssvar og jobbeskrivelser sendes til Anthropic for AI-analyse. Data behandles i henhold til Anthropics personvernpolicy.</li>
+                <li><strong>Anthropic (Claude AI):</strong> Dine spørsmålssvar, jobbeskrivelser og kandidatprofil sendes til Anthropic for AI-analyse og tilbakemelding. Data behandles i henhold til Anthropics personvernpolicy.</li>
+                <li><strong>Mistral AI:</strong> Lydopptak sendes til Mistral for transkribering (tale til tekst) og taleanalyse. Data behandles i henhold til Mistrals personvernpolicy.</li>
                 <li><strong>Google Firebase:</strong> Autentisering og brukeridentitet.</li>
                 <li><strong>Apple:</strong> Kjøpstransaksjoner via App Store.</li>
                 <li><strong>Google Cloud:</strong> Hosting av backend-tjenester (Europa-nord region).</li>
+                <li><strong>PostHog:</strong> Anonymisert produktanalyse (bruksmønstre, ikke personopplysninger). Kun aktiv når du har gitt samtykke til analysedata i appens innstillinger.</li>
             </ul>
             <p>Vi selger aldri dine personopplysninger til tredjeparter.</p>
         </section>
